@@ -1,0 +1,84 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.btn {
+  /* background-color: white; */
+  outline: white;
+}
+
+.alignment {
+  text-align: center;
+}
+.circular {
+  border-radius: 50%;
+  height: 140px;
+}
+
+.aligning {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  display: flex;
+  gap: 100px;
+  flex-flow: wrap row;
+  justify-content: space-around;
+}
+
+@media (max-width:1000px){
+  .map {
+    gap: 20px;
+    flex-flow: nowrap column;
+    align-items: center;
+  }
+}
+
+.common {
+  height: 40px;
+}
+
+.new {
+  font-weight: 400;
+}
+
+.change {
+  background-color: black;
+}
+
+.text-change {
+  font-size: 19px;
+  font-weight: 300px;
+}
+
+.change-font {
+  font-size: 19px;
+}
